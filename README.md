@@ -1,0 +1,1 @@
+THEME is the default theme for the PROJECT.

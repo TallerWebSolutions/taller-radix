@@ -1,0 +1,23 @@
+name        = THEME
+description = PROJECT's default theme
+screenshot  = screenshot.png
+core        = 7.x
+
+; Base - Radix
+base theme  = radix
+
+
+; Regions
+regions[content] = Content
+
+; Panels
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles] = panels/styles
+
+; CSS - General
+stylesheets[all][] = assets/css/bootstrap-core.css
+stylesheets[all][] = assets/css/main.css
+
+; Javascript
+scripts[] = assets/js/script.js
+
